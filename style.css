@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(43, 40, 40);
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:5px;
+}
+
+.baslik{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.boy{
+    margin-top: 15px;
+    height: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.kilo{
+    margin-top: 15px;
+    height: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+}
+
+.Hesapla{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.Sifirla{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.Vücut_Kinde_Endeksi{
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#Sağlık_Durumu{
+    margin-top: 3px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.Sağlık_Durumu{
+    margin-top: 5px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+#Kinde_Endeksi{
+    margin-top: 3px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.buttonlar{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+
+}
